@@ -1,0 +1,78 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Rubik+Bubbles&display=swap');
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: url('https://images.unsplash.com/photo-1690382285917-73dfd2a22d07?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') ;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-top: 350px;
+}
+
+.header h3 {
+    font-family: "Bungee Shade", sans-serif;
+    font-size: 165%;
+    margin: 0;
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6a4caf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #9d45a0;
+}
+
+p {
+    margin: 10px 0;
+    color: #333;
+}
